@@ -358,8 +358,7 @@ scroll up button
   overflow: hidden;
   text-indent: 100%;
   white-space: nowrap;
-  background: #ffffff url('arrow_carrot-up.png') no-repeat center 50%;
-  border: 1px solid black;	
+  background: #99FFFF url('arrow_carrot-up.png') no-repeat center 50%;
   visibility: hidden;
   opacity: 0;
   -webkit-transition: opacity .3s 0s, visibility 0s .3s;
@@ -381,7 +380,7 @@ scroll up button
   opacity: .5;
 }
 .no-touch .cd-top:hover {
-  background-color: #7777FF;
+  background-color: #99FFFF;
   opacity: 1;
 }
 @media only screen and (min-width: 768px) {
