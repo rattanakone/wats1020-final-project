@@ -1,0 +1,405 @@
+/* Clearfix */
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+.clearfix:after {
+    clear: both;
+}
+.clearfix {
+    zoom: 1;
+}
+
+/* Basic Styles */
+
+body {
+    font:15px/23px 'Raleway',sans-serif;
+	background: transparent;
+    margin:0;
+    padding:0;
+    height:100%;
+    width:100%;
+    -webkit-font-smoothing:antialiased;
+    -webkit-text-size-adjust:100%
+}
+
+body a {
+	color: black;
+	text-decoration: none;
+	font-size: 15pt;
+}
+
+body a:hover, nav a:active {
+	border-bottom: 2px solid lightgray;
+	text-decoration: none;
+	color: black;
+}
+
+
+nav {
+	height: 60px;
+	width: 100%;
+	background: #99FFFF;
+	filter:alpha(opacity=70); /* IE */
+	-moz-opacity:0.7; /* Mozilla */
+	opacity: 0.7; /* CSS3 */
+	font-size: 20pt;
+	position: relative;
+}
+nav ul {
+	padding: 0;
+	margin: 10px auto;
+	width: 600px;
+	height: 40px;
+}
+nav li {
+	display: inline;
+	float: left;
+}
+nav a {
+	color: black;
+	display: inline-block;
+	width: 120px;
+	text-align: center;
+	text-decoration: none;
+	line-height: 40px;
+}
+nav li a {
+	box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+}
+nav a:hover, nav a:active {
+	border-bottom: 1px solid white;
+	text-decoration: none;
+	color: black;
+}
+nav a#pull {
+	display: none;
+}
+
+/*Styles for screen 600px and lower*/
+@media screen and (max-width: 600px) {
+	nav { 
+  		height: auto;
+  	}
+  	nav ul {
+  		width: 100%;
+  		display: block;
+  		height: auto;
+  	}
+  	nav li {
+  		width: 50%;
+  		float: left;
+  		position: relative;
+  	}
+  	nav li a {
+		border-bottom: 1px solid transparent;
+		border-right: 1px solid white;
+	}
+  	nav a {
+	  	text-align: left;
+	  	width: 100%;
+	  	text-indent: 25px;
+  	}
+}
+
+/*Styles for screen 515px and lower*/
+@media only screen and (max-width : 480px) {
+	nav {
+		border-bottom: 0;
+	}
+	nav ul {
+		display: none;
+		height: auto;
+	}
+	nav a#pull {
+		display: block;
+		background-color: transparent;
+		width: 100%;
+		position: relative;
+	}
+	nav a#pull:after {
+		content:"";
+		width: 30px;
+		height: 30px;
+		display: inline-block;
+		position: absolute;
+		right: 15px;
+		top: 10px;
+	}
+}
+
+/*Smartphone*/
+@media only screen and (max-width : 320px) {
+	nav li {
+		display: block;
+		float: none;
+		width: 100%;
+	}
+	nav li a {
+		border-bottom: 1px solid white;
+	}
+}
+
+/* YouTube Responsive CSS for HubSpot */
+.hs-responsive-embed-youtube {
+position: relative;
+padding-bottom: 56.25%; /* 16:9 Aspect Ratio */
+padding-top: 25px;
+height: 0;
+}
+ 
+.hs-responsive-embed-youtube iframe {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+}
+hr {
+width: 90%;
+}
+
+/* Thin out the marketing headings */
+.featurette-heading {
+  font-weight: 400;
+  line-height: 1;
+  letter-spacing: -1px;
+}
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media (min-width: 768px) {
+  .featurette-heading {
+    font-size: 60px;
+  }
+}
+
+@media (min-width: 992px) {
+  .featurette-heading {
+    margin-top: 50px;
+	margin-bottom: 80px;
+  }
+}
+
+/*bootstrap customs*/
+
+#lifestyle {
+	background: #FF9999;
+	padding: 50px;
+}
+#fitbit-flex img {
+	border: 1px solid black;
+}
+#fitbit-flex img:hover {
+	opacity: 0.8; 
+	filter: alpha(opacity=80);
+}
+.details {
+    display: none;
+}
+#button-style {
+	color: black;
+	font-size: 20px;
+	background: transparent;
+	border: 1px solid black;
+}
+#button-style:hover {
+	opacity: 0.4; 
+	filter: alpha(opacity=40);
+}
+#apple-tape img {
+	border: 1px solid black;
+}
+#apple-tape img:hover {
+	opacity: 0.8; 
+	filter: alpha(opacity=80);
+}
+#restaurant img {
+	border: 1px solid black;
+}
+#restaurant img:hover {
+	opacity: 0.8; 
+	filter: alpha(opacity=80);
+}
+#vegetables img {
+	border: 1px solid black;
+}
+#vegetables a:hover {
+	opacity: 0.8; 
+	filter: alpha(opacity=80);
+}
+#recipes img {
+	border: 1px solid black;
+}
+#recipes a:hover {
+	opacity: 0.8; 
+	filter: alpha(opacity=80);
+}
+.classWithPad { 
+	margin:5px; 
+	padding:5px;
+}
+.classWithPad p {
+	font-size: 15pt;
+}
+.gap-right {
+  margin-right: 15px; 
+}
+
+#healthy-foods {
+	background: #33CC99;
+	padding: 50px;
+}
+#workout-info {
+	background: #FFC968;
+	padding: 50px;
+}
+#motivation-info {
+	background: #FFC0EB;
+	padding: 50px;
+}
+#gallery-one img {
+	border: 1px solid black;
+}
+#gallery-one .bracelet:hover {
+	opacity: 0.8; 
+	filter: alpha(opacity=80);
+}
+#gallery-one .smartphone:hover {
+	opacity: 0.8; 
+	filter: alpha(opacity=80);
+}
+#gallery-one .kitchen:hover {
+	opacity: 0.8; 
+	filter: alpha(opacity=80);
+}
+#gallery-two img {
+	border: 1px solid black;
+}
+#gallery-two .hiking:hover {
+	opacity: 0.8; 
+	filter: alpha(opacity=80);
+}
+#gallery-two .casual:hover {
+	opacity: 0.8; 
+	filter: alpha(opacity=80);
+}
+#gallery-two .running:hover {
+	opacity: 0.8; 
+	filter: alpha(opacity=80);
+}
+#credits {
+	background: white;
+	padding: 50px;
+	width: 80%;
+}
+#credits-border {
+	border: 1px dotted black;
+	background: white;
+	padding: 80px;
+	width: 95%;
+}
+#fitbit-info {
+	background: #99FFFF;
+	padding: 50px;
+	width: 100%;
+}
+#contact {
+	padding: 15px;
+	width: 95%;
+}
+#social-list li {
+	display: inline;
+	list-style-type: none;
+	padding-right: 10px;	
+}
+#website {
+	font-size: 1.3em;
+}
+#map-container { 
+	height: 180px;
+}
+#map {
+	border: 1px solid black;
+}
+
+
+
+/* -------------------------------- 
+
+scroll up button
+
+-------------------------------- */
+.cd-container {
+  width: 90%;
+  max-width: 768px;
+  margin: 2em auto;
+}
+.cd-container::after {
+  /* clearfix */
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.cd-top {
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  position: fixed;
+  bottom: 40px;
+  right: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+  /* image replacement properties */
+  overflow: hidden;
+  text-indent: 100%;
+  white-space: nowrap;
+  background: rgba(119, 119, 255, 0.73) url(/img/nav/cd-top-arrow.svg) no-repeat center 50%;
+  visibility: hidden;
+  opacity: 0;
+  -webkit-transition: opacity .3s 0s, visibility 0s .3s;
+  -moz-transition: opacity .3s 0s, visibility 0s .3s;
+  transition: opacity .3s 0s, visibility 0s .3s;
+}
+.cd-top.cd-is-visible, .cd-top.cd-fade-out, .no-touch .cd-top:hover {
+  -webkit-transition: opacity .3s 0s, visibility 0s 0s;
+  -moz-transition: opacity .3s 0s, visibility 0s 0s;
+  transition: opacity .3s 0s, visibility 0s 0s;
+}
+.cd-top.cd-is-visible {
+  /* the button becomes visible */
+  visibility: visible;
+  opacity: 1;
+}
+.cd-top.cd-fade-out {
+  /* if the user keeps scrolling down, the button is out of focus and becomes less visible */
+  opacity: .5;
+}
+.no-touch .cd-top:hover {
+  background-color: #7777FF;
+  opacity: 1;
+}
+@media only screen and (min-width: 768px) {
+  .cd-top {
+    right: 20px;
+    bottom: 20px;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .cd-top {
+    height: 60px;
+    width: 60px;
+    right: 30px;
+    bottom: 30px;
+  }
+}
+
+
+
+
+
+
