@@ -358,7 +358,7 @@ scroll up button
   overflow: hidden;
   text-indent: 100%;
   white-space: nowrap;
-  background: rgba(119, 119, 255, 0.73) url(/img/nav/arrow_carrot-up.png) no-repeat center 50%;
+  background: rgba(119, 119, 255, 0.73) url('/img/nav/arrow_carrot-up.png') no-repeat center 50%;
   visibility: hidden;
   opacity: 0;
   -webkit-transition: opacity .3s 0s, visibility 0s .3s;
