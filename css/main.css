@@ -191,6 +191,18 @@ width: 90%;
 	background: #FF9999;
 	padding: 50px;
 }
+.running-center { 
+	margin: 0 auto; 
+	height: 200px; 
+	width: 300px; 
+	display: block;
+}
+.go-forward {
+	margin: 0 auto;
+	height: 200px;
+	width: 300px;
+	display: block;
+}
 #fitbit-flex img {
 	border: 1px solid black;
 }
@@ -221,16 +233,22 @@ width: 90%;
 #restaurant img {
 	border: 1px solid black;
 }
-#restaurant img:hover {
+#restaurant:hover {
 	opacity: 0.8; 
 	filter: alpha(opacity=80);
-}
-#vegetables img {
-	border: 1px solid black;
 }
 #vegetables a:hover {
 	opacity: 0.8; 
 	filter: alpha(opacity=80);
+}
+.colorful-vegetables {
+	border: 1px solid black;
+}
+.sushi {
+	margin: 0 auto;
+	height: 200px;
+	width: 300px; 
+	display: block;
 }
 #recipes img {
 	border: 1px solid black;
@@ -238,6 +256,12 @@ width: 90%;
 #recipes a:hover {
 	opacity: 0.8; 
 	filter: alpha(opacity=80);
+}
+.chicken-center {
+	margin: 0 auto;
+	height: 200px;
+	width: 300px; 
+	display: block;
 }
 .classWithPad { 
 	margin:5px; 
@@ -295,13 +319,6 @@ width: 90%;
 #credits {
 	background: white;
 	padding: 50px;
-	width: 80%;
-}
-#credits-border {
-	border: 1px dotted black;
-	background: white;
-	padding: 80px;
-	width: 95%;
 }
 #fitbit-info {
 	background: #99FFFF;
