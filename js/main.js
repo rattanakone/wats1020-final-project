@@ -31,7 +31,7 @@ youtubePlayer.mute();
 }
 var params = { allowScriptAccess: "always" };
 var atts = { id: "myyoutubePlayer" };
-swfobject.embedSWF("http://www.youtube.com/v/nJ6xtfsAuKA&list=PL_xLGCqFuhiE14hR7xA_wQCvyxVy_OfF_&feature=plpp_play_all?enablejsapi=1&playerapiid=youtubePlayer&controls=0&version=3&loop=1&autohide=1",
+swfobject.embedSWF("http://www.youtube.com/v/yggn7P4pRUw&list=PL_xLGCqFuhiE6ailQbZJ5ZOL2uveIuzRm&feature=plpp_play_all?enablejsapi=1&playerapiid=youtubePlayer&controls=0&version=3&loop=1&autohide=1",
 "youtubeNosound", "100%", "380", "8", null, null, params, atts);
 
 

@@ -31,7 +31,7 @@ body a {
 }
 
 body a:hover, nav a:active {
-	border-bottom: 2px solid lightgray;
+	border-bottom: 1px solid black;
 	text-decoration: none;
 	color: black;
 }
@@ -220,8 +220,8 @@ width: 90%;
 	border: 1px solid black;
 }
 #button-style:hover {
-	opacity: 0.4; 
-	filter: alpha(opacity=40);
+	opacity: 0.8; 
+	filter: alpha(opacity=80);
 }
 #apple-tape img {
 	border: 1px solid black;
@@ -316,10 +316,6 @@ width: 90%;
 	opacity: 0.8; 
 	filter: alpha(opacity=80);
 }
-#credits {
-	background: white;
-	padding: 50px;
-}
 #fitbit-info {
 	background: #99FFFF;
 	padding: 50px;
@@ -343,7 +339,13 @@ width: 90%;
 #map {
 	border: 1px solid black;
 }
-
+#credits {
+	background: white;
+	padding: 50px;
+}
+#credit-font {
+	font-size: 20px;
+}
 
 
 /* -------------------------------- 
