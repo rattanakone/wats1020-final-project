@@ -1,12 +1,14 @@
-var tag = document.createElement('script');
+// youtube video on top of page
 
-tag.src = "//www.youtube.com/iframe_api";
-var firstScriptTag = document.getElementsByTagName('script')[0];
-firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+var tag = document.createElement('script'); 
 
-var player;
+tag.src = "//www.youtube.com/iframe_api"; 
+var firstScriptTag = document.getElementsByTagName('script')[0]; 
+firstScriptTag.parentNode.insertBefore(tag, firstScriptTag); 
 
-function onYouTubeIframeAPIReady() {
+var player; 
+
+function onYouTubeIframeAPIReady() { 
 	player = new YT.Player('ytplayer', {
 		events: {
 			'onReady': onPlayerReady
@@ -14,33 +16,36 @@ function onYouTubeIframeAPIReady() {
 	});
 }
 
-function onPlayerReady() {
+function onPlayerReady() { 
 	player.playVideo();
 	player.mute();
 }
 
 
+// youtube video on top of page
 
+
+// youtube playlist video 
 
 
 google.load("swfobject", "2.1");
-function onYouTubePlayerReady(playerId) {
-youtubePlayer = document.getElementById("myyoutubePlayer");
-youtubePlayer.playVideo();
-youtubePlayer.mute();
+function onYouTubePlayerReady(playerId) { 
+youtubePlayer = document.getElementById("myyoutubePlayer"); 
+youtubePlayer.playVideo(); 
+youtubePlayer.mute(); 
 }
-var params = { allowScriptAccess: "always" };
-var atts = { id: "myyoutubePlayer" };
-swfobject.embedSWF("http://www.youtube.com/v/yggn7P4pRUw&list=PL_xLGCqFuhiE6ailQbZJ5ZOL2uveIuzRm&feature=plpp_play_all?enablejsapi=1&playerapiid=youtubePlayer&controls=0&version=3&loop=1&autohide=1",
-"youtubeNosound", "100%", "380", "8", null, null, params, atts);
+var params = { allowScriptAccess: "always" }; 
+var atts = { id: "myyoutubePlayer" }; 
+swfobject.embedSWF("http://www.youtube.com/v/yggn7P4pRUw&list=PL_xLGCqFuhiE6ailQbZJ5ZOL2uveIuzRm&feature=plpp_play_all?enablejsapi=1&playerapiid=youtubePlayer&controls=0&version=3&loop=1&autohide=1", 
+"youtubeNosound", "100%", "380", "8", null, null, params, atts); 
 
 
+// youtube playlist video
 
 
+// map of fitbit headquarters
 
-
-
-var map = L.map('map').setView([37.786, -122.387], 14); 
+var map = L.map('map').setView([37.786, -122.387], 14); // variable of longitude and latitude
 
 var streetView = L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}', { //street layer of the map
     attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="http://mapbox.com">Mapbox</a>',
@@ -69,20 +74,18 @@ var layerViews = { //variable for map legend of the different layers
 	"Satellite" : satView,
 };
 
-var mapLegend = L.control.layers(layerViews).addTo(map);
+var mapLegend = L.control.layers(layerViews).addTo(map); // variable that adds all layers of maps together
 
 var headquarters = L.marker([37.78853, -122.395144]).addTo(map);
 
 
+// map of fitbit headquarters
+
 
 $(document).on('ready', function(){
 	
-//	$(function () {
-//		$('#btnUsingjQuery').click(function () {
-//			alert('Alert using jQuery Function');
-//		});
-//	});
-	
+// nav menu 
+		
 	$(function() {
 		var pull = $('#pull');
 			menu = $('nav ul');
@@ -100,6 +103,11 @@ $(document).on('ready', function(){
         	}
     	});
 	});
+	
+// nav menu 
+	
+	
+// scroll top button 
 	
 		// browser window scroll (in pixels) after which the "back to top" link is shown
 	var offset = 300,
@@ -127,6 +135,11 @@ $(document).on('ready', function(){
 		);
 	});
 	
+// scroll top button 
+	
+
+// view details button
+	
 	$('.view-details').on('click', function(event){ //  1. When user clicks a "view details" button
 	console.log(event);
 	var targetElement = event.target;
@@ -142,7 +155,7 @@ $(document).on('ready', function(){
 	});
 });
 
-	
+// view details button
 	
 		
 
