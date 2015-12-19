@@ -42,6 +42,7 @@ swfobject.embedSWF("http://www.youtube.com/v/xdaAOXSAqXk&list=PLATkQeyUmMO3gXo4T
 
 // youtube playlist video
 
+new WOW().init();
 
 // map of fitbit headquarters
 

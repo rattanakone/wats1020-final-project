@@ -209,10 +209,7 @@ width: 90%;
 #fitbit-flex img {
 	border: 1px solid black;
 }
-#fitbit-flex img:hover {
-	opacity: 0.8; 
-	filter: alpha(opacity=80);
-}
+
 .details {
     display: none;
 }
@@ -221,29 +218,36 @@ width: 90%;
 	font-size: 20px;
 	background: transparent;
 	border: 1px solid black;
+	border-radius: 0;
+	display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  overflow: hidden;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: color, background-color;
+  transition-property: color, background-color;
 }
+
 #button-style:hover {
-	opacity: 0.8; 
-	filter: alpha(opacity=80);
+	color: black;
+	background: white;
 }
+
 #apple-tape img {
 	border: 1px solid black;
 }
-#apple-tape img:hover {
-	opacity: 0.8; 
-	filter: alpha(opacity=80);
-}
+
 #restaurant img {
 	border: 1px solid black;
 }
-#restaurant:hover {
-	opacity: 0.8; 
-	filter: alpha(opacity=80);
-}
-#vegetables a:hover {
-	opacity: 0.8; 
-	filter: alpha(opacity=80);
-}
+
+
 .colorful-vegetables {
 	border: 1px solid black;
 }
@@ -256,10 +260,7 @@ width: 90%;
 #recipes img {
 	border: 1px solid black;
 }
-#recipes a:hover {
-	opacity: 0.8; 
-	filter: alpha(opacity=80);
-}
+
 .chicken-center {
 	margin: 0 auto;
 	height: 200px;
