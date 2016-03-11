@@ -322,8 +322,7 @@ width: 90%;
 }
 #fitbit-info {
 	background: #99FFFF;
-	padding: 50px;
-	width: 100%;
+	
 }
 #contact {
 	padding: 15px;
@@ -335,13 +334,15 @@ width: 90%;
 	padding-right: 10px;	
 }
 #website {
-	font-size: 1.3em;
+	font-size: 1.5em;
 }
 #map-container { 
-	height: 180px;
+	height: 250px;
+
 }
 #map {
 	border: 1px solid black;
+	padding: 15px;
 }
 #credits {
 	background: white;
@@ -420,6 +421,10 @@ width: 90%;
 }
 
 /* scroll up button */
+
+.contact-text {
+	font-size: 25px;
+}
 
 
 
