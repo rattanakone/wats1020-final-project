@@ -15,15 +15,19 @@
 
 /* body style */
 
+
+html { 
+    -webkit-font-smoothing: antialiased; 
+}
+
 body {
-    font:15px/23px 'Raleway',sans-serif;
-	background: transparent;
+    overflow-x: hidden;
+    font-family: 'HelveticaNeue-UltraLight', 'Helvetica Neue UltraLight', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+    background: transparent;
     margin:0;
     padding:0;
     height:100%;
     width:100%;
-    -webkit-font-smoothing:antialiased;
-    -webkit-text-size-adjust:100%
 }
 
 body a {
@@ -427,6 +431,143 @@ width: 90%;
 }
 
 
+
+
+/* start of new css */
+
+#fitbit-nav {
+  margin-bottom: 0;
+  border-radius: 0;
+  border: 0;
+  background: rgba(153,255,255,0.9);
+  padding: 3px;
+}
+
+#fitbit-nav a {
+  color: black;
+  font-size: 18px;
+}
+
+#fitbit-nav a:hover {
+  background: rgba(0,0,0,0.6);
+  color: white;
+}
+
+#link-button {
+  border-radius: 0;
+  border: 1px solid transparent;
+  background: transparent;
+}
+
+.navbar-nav.nav-justified > li{
+  float:none;
+  padding-left: 20px;
+}
+
+#looks-nav .navbar-collapse {
+  border-color: black;
+  border-radius: 0;
+}
+
+.navbar-default .navbar-toggle {
+  border-color: transparent;
+  background-color: transparent;
+  border-radius: 0;
+}
+
+#fitbit-icon .icon-bar {
+  background-color: black;
+  border-radius: 0;
+}
+
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  background-color: transparent;
+  border-radius: 0;
+}
+
+.intro-text {
+	color: white;
+	background: black;
+	font-size: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+section.module:last-child {
+  margin-bottom: 0;
+}
+
+section.module h2 {
+  margin-bottom: 40px;
+  font-size: 30px;
+}
+
+section.module p {
+  margin-bottom: 40px;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+section.module p:last-child {
+  margin-bottom: 0;
+}
+
+section.module.parallax {
+  height: 600px;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+section.module.parallax h1 {
+  color: white;
+  font-size: 40px;
+  line-height: 500px;
+  text-align: center;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+section.module.parallax-1 {
+  background-image: url('../img/womanlift.png');
+}
+
+section.module.parallax-2 {
+  background-image: url('../img/running.png');
+}
+
+.skateboarding-bg {
+	background-image: url('../img/skateboarding.png');
+  background-repeat: none;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  height: 300px;
+}
+
+.space-skateboarding-bg {
+	padding: 200px;
+}
+
+.chore-text {
+	background-color: white;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+	font-size: 30px;
+	color: black;
+  padding: 130px;
+	height: 300px;
+}
 
 
 
