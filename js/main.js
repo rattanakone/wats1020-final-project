@@ -16,11 +16,11 @@ function onYouTubeIframeAPIReady() {
 	});
 }
 
-function onPlayerReady() { 
+function onPlayerReady(event) { 
 //	player.playVideo();
 //	player.mute();
-	event.target.setVolume(10);
-	event.target.playVideo(5);
+	event.target.setVolume(2);
+	event.target.playVideo();
 }
 
 
