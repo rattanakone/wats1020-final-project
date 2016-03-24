@@ -442,13 +442,13 @@ width: 90%;
 }
 
 #fitbit-nav a {
-  color: black;
-  font-size: 18px;
+  font-size: 16px;
+  font-weight: 600;
 }
 
 #fitbit-nav a:hover {
-  background: rgba(255,255,255,0.7);
-  color: black;
+  background: transparent;
+  color: white;
 }
 
 #link-button {
@@ -590,16 +590,14 @@ section.module.parallax-4 {
 }
 
 .chore-sentence {
-  color: black;
-  background: white;
+  background: #FF9999;
   font-size: 30px;
   padding-top: 40px;
   padding-bottom: 40px;
 }
 
 .workout-examples {
-  color: black;
-  background: white;
+  background: #33CC99;
   font-size: 30px;
   padding-top: 40px;
   padding-bottom: 40px;
@@ -621,6 +619,13 @@ section.module.parallax-4 {
   background-size: cover;
   -o-background-size: cover;
   height: 300px;
+  opacity: 1;
+  filter: alpha(opacity=40);
+}
+
+.swimming-bg:hover {
+  opacity: 0.9;
+  filter: alpha(opacity=10);
 }
 
 .boxing-bg {
@@ -633,6 +638,13 @@ section.module.parallax-4 {
   background-size: cover;
   -o-background-size: cover;
   height: 300px;
+  opacity: 1;
+  filter: alpha(opacity=40);
+}
+
+.boxing-bg:hover {
+  opacity: 0.9;
+  filter: alpha(opacity=10);
 }
 
 .biking-bg {
@@ -645,6 +657,13 @@ section.module.parallax-4 {
   background-size: cover;
   -o-background-size: cover;
   height: 300px;
+  opacity: 1;
+  filter: alpha(opacity=40);
+}
+
+.biking-bg:hover {
+  opacity: 0.9;
+  filter: alpha(opacity=10);
 }
 
 .stairs-bg {
@@ -657,6 +676,13 @@ section.module.parallax-4 {
   background-size: cover;
   -o-background-size: cover;
   height: 300px;
+  opacity: 1;
+  filter: alpha(opacity=40);
+}
+
+.stairs-bg:hover {
+  opacity: 0.9;
+  filter: alpha(opacity=10);
 }
 
 .crossfit-bg {
@@ -669,6 +695,13 @@ section.module.parallax-4 {
   background-size: cover;
   -o-background-size: cover;
   height: 300px;
+  opacity: 1;
+  filter: alpha(opacity=40);
+}
+
+.crossfit-bg:hover {
+  opacity: 0.9;
+  filter: alpha(opacity=10);
 }
 
 .yoga-bg {
@@ -681,6 +714,13 @@ section.module.parallax-4 {
   background-size: cover;
   -o-background-size: cover;
   height: 300px;
+  opacity: 1;
+  filter: alpha(opacity=40);
+}
+
+.yoga-bg:hover {
+  opacity: 0.9;
+  filter: alpha(opacity=10);
 }
 
 .jumprope-bg {
@@ -693,6 +733,13 @@ section.module.parallax-4 {
   background-size: cover;
   -o-background-size: cover;
   height: 300px;
+  opacity: 1;
+  filter: alpha(opacity=40);
+}
+
+.jumprope-bg:hover {
+  opacity: 0.9;
+  filter: alpha(opacity=10);
 }
 
 .hiking-bg {
@@ -705,6 +752,13 @@ section.module.parallax-4 {
   background-size: cover;
   -o-background-size: cover;
   height: 300px;
+  opacity: 1;
+  filter: alpha(opacity=40);
+}
+
+.hiking-bg:hover {
+  opacity: 0.9;
+  filter: alpha(opacity=10);
 }
 
 .battlerope-bg {
@@ -717,6 +771,13 @@ section.module.parallax-4 {
   background-size: cover;
   -o-background-size: cover;
   height: 300px;
+  opacity: 1;
+  filter: alpha(opacity=40);
+}
+
+.battlerope-bg:hover {
+  opacity: 0.9;
+  filter: alpha(opacity=10);
 }
 
 .kayak-bg {
@@ -729,6 +790,13 @@ section.module.parallax-4 {
   background-size: cover;
   -o-background-size: cover;
   height: 300px;
+  opacity: 1;
+  filter: alpha(opacity=40);
+}
+
+.kayak-bg:hover {
+  opacity: 0.9;
+  filter: alpha(opacity=10);
 }
 
 .surfing-bg {
@@ -741,6 +809,13 @@ section.module.parallax-4 {
   background-size: cover;
   -o-background-size: cover;
   height: 300px;
+  opacity: 1;
+  filter: alpha(opacity=40);
+}
+
+.surfing-bg:hover {
+  opacity: 0.9;
+  filter: alpha(opacity=10);
 }
 
 .rowing-bg {
@@ -753,11 +828,17 @@ section.module.parallax-4 {
   background-size: cover;
   -o-background-size: cover;
   height: 300px;
+  opacity: 1;
+  filter: alpha(opacity=40);
+}
+
+.rowing-bg:hover {
+  opacity: 0.9;
+  filter: alpha(opacity=10);
 }
 
 .learnmore-sentence {
-  color: black;
-  background: white;
+  background: #FFC968;
   font-size: 30px;
   padding-top: 40px;
   padding-bottom: 40px;
