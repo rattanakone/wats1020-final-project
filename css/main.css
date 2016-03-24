@@ -434,11 +434,11 @@ width: 90%;
   border: 0;
   background: rgba(153,255,255,0.7);
   padding: 3px;
-  -moz-animation: fadeIn 15s;
-  -ms-animation: fadeIn 15s;
-  -o-animation: fadeIn 15s;
-  -webkit-animation: fadeIn 15s;
-  animation: fadeIn 15s;
+  -moz-animation: fadeIn 18s;
+  -ms-animation: fadeIn 18s;
+  -o-animation: fadeIn 18s;
+  -webkit-animation: fadeIn 18s;
+  animation: fadeIn 18s;
 }
 
 #fitbit-nav a {
@@ -788,10 +788,8 @@ section.module.parallax-4 {
 }
 
 .learnmore-text:hover {
-  color: white;
-  background: black;
+  color: pink;
   text-decoration: none;
-  padding: 20px;
 }
 
 
