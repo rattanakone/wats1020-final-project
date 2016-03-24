@@ -17,8 +17,10 @@ function onYouTubeIframeAPIReady() {
 }
 
 function onPlayerReady() { 
-	player.playVideo();
-	player.mute();
+//	player.playVideo();
+//	player.mute();
+	event.target.setVolume(5);
+	event.target.playVideo();
 }
 
 
