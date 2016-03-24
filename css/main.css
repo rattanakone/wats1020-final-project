@@ -432,8 +432,8 @@ width: 90%;
   margin-bottom: 0;
   border-radius: 0;
   border: 0;
-  background: rgba(153,255,255,0.7);
-  padding: 3px;
+  background: rgba(153,255,255,0.5);
+  padding: 1px;
   -moz-animation: fadeIn 18s;
   -ms-animation: fadeIn 18s;
   -o-animation: fadeIn 18s;
@@ -442,7 +442,7 @@ width: 90%;
 }
 
 #fitbit-nav a {
-  font-size: 16px;
+  font-size: 13px;
   font-weight: 600;
 }
 
@@ -484,8 +484,7 @@ width: 90%;
   padding-left: 20px;
 }
 
-#looks-nav .navbar-collapse {
-  border-color: black;
+#fitbit-nav .navbar-collapse {
   border-radius: 0;
 }
 
@@ -496,7 +495,6 @@ width: 90%;
 }
 
 #fitbit-icon .icon-bar {
-  background-color: black;
   border-radius: 0;
 }
 
@@ -504,6 +502,26 @@ width: 90%;
 .navbar-default .navbar-toggle:focus {
   background-color: transparent;
   border-radius: 0;
+}
+
+@media(min-width:768px) {
+  #fitbit-nav {
+    margin-bottom: 0;
+    border-radius: 0;
+    border: 0;
+    background: rgba(153,255,255,0.7);
+    padding: 3px;
+    -moz-animation: fadeIn 18s;
+    -ms-animation: fadeIn 18s;
+    -o-animation: fadeIn 18s;
+    -webkit-animation: fadeIn 18s;
+    animation: fadeIn 18s;
+  }
+
+  #fitbit-nav a {
+    font-size: 16px;
+    font-weight: 600;
+  }
 }
 
 section.module:last-child {
@@ -526,7 +544,8 @@ section.module p:last-child {
 }
 
 section.module.parallax {
-  height: 600px;
+  height: 200px;
+  background-position: 50% 50%;
   background-repeat: no-repeat;
   background-attachment: fixed;
   -webkit-background-size: cover;
@@ -537,8 +556,8 @@ section.module.parallax {
 
 section.module.parallax h1 {
   color: white;
-  font-size: 40px;
-  line-height: 500px;
+  font-size: 15px;
+  line-height: 150px;
   text-align: center;
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
@@ -559,6 +578,63 @@ section.module.parallax-4 {
   background-image: url('../img/staymotivated.png');
 }
 
+@media(min-width:768px) {
+  section.module:last-child {
+    margin-bottom: 0;
+  }
+
+  section.module h2 {
+    margin-bottom: 40px;
+    font-size: 30px;
+  }
+
+  section.module p {
+    margin-bottom: 40px;
+    font-size: 16px;
+    font-weight: 300;
+  }
+
+  section.module p:last-child {
+    margin-bottom: 0;
+  }
+
+  section.module.parallax {
+    height: 600px;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+  section.module.parallax h1 {
+    color: white;
+    font-size: 35px;
+    line-height: 500px;
+    text-align: center;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+
+  section.module.parallax-1 {
+    background-image: url('../img/womanlift.png');
+  }
+
+  section.module.parallax-2 {
+    background-image: url('../img/running.png');
+  }
+
+  section.module.parallax-3 {
+    background-image: url('../img/yogaatlake.png');
+  }
+
+  section.module.parallax-4 {
+    background-image: url('../img/staymotivated.png');
+  }
+}
+
+
 .skateboarding-bg {
 	background-image: url('../img/skateboarding.png');
   background-repeat: none;
@@ -568,7 +644,7 @@ section.module.parallax-4 {
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
-  height: 500px;
+  height: 200px;
 }
 
 .space-skateboarding-bg {
@@ -591,22 +667,54 @@ section.module.parallax-4 {
 
 .chore-sentence {
   background: #FF9999;
-  font-size: 30px;
-  padding-top: 40px;
-  padding-bottom: 40px;
+  font-size: 13px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .workout-examples {
   background: #33CC99;
-  font-size: 30px;
-  padding-top: 40px;
-  padding-bottom: 40px;
+  font-size: 13px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+@media(min-width:768px) {
+  .skateboarding-bg {
+    background-image: url('../img/skateboarding.png');
+    background-repeat: none;
+    background-attachment: scroll;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    height: 500px;
+  }
+
+  .space-skateboarding-bg {
+    padding: 200px;
+  }
+
+  .chore-sentence {
+    background: #FF9999;
+    font-size: 25px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  .workout-examples {
+    background: #33CC99;
+    font-size: 25px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
 }
 
 .workout-text {
-  padding-top: 110px;
+  padding-top: 70px;
   color: white;
-  font-size: 30px;
+  font-size: 10px;
 }
 
 .swimming-bg {
@@ -618,14 +726,7 @@ section.module.parallax-4 {
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
-  height: 300px;
-  opacity: 1;
-  filter: alpha(opacity=40);
-}
-
-.swimming-bg:hover {
-  opacity: 0.9;
-  filter: alpha(opacity=10);
+  height: 200px;
 }
 
 .boxing-bg {
@@ -637,14 +738,7 @@ section.module.parallax-4 {
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
-  height: 300px;
-  opacity: 1;
-  filter: alpha(opacity=40);
-}
-
-.boxing-bg:hover {
-  opacity: 0.9;
-  filter: alpha(opacity=10);
+  height: 200px;
 }
 
 .biking-bg {
@@ -656,14 +750,7 @@ section.module.parallax-4 {
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
-  height: 300px;
-  opacity: 1;
-  filter: alpha(opacity=40);
-}
-
-.biking-bg:hover {
-  opacity: 0.9;
-  filter: alpha(opacity=10);
+  height: 200px;
 }
 
 .stairs-bg {
@@ -675,14 +762,7 @@ section.module.parallax-4 {
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
-  height: 300px;
-  opacity: 1;
-  filter: alpha(opacity=40);
-}
-
-.stairs-bg:hover {
-  opacity: 0.9;
-  filter: alpha(opacity=10);
+  height: 200px;
 }
 
 .crossfit-bg {
@@ -694,14 +774,7 @@ section.module.parallax-4 {
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
-  height: 300px;
-  opacity: 1;
-  filter: alpha(opacity=40);
-}
-
-.crossfit-bg:hover {
-  opacity: 0.9;
-  filter: alpha(opacity=10);
+  height: 200px;
 }
 
 .yoga-bg {
@@ -713,14 +786,7 @@ section.module.parallax-4 {
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
-  height: 300px;
-  opacity: 1;
-  filter: alpha(opacity=40);
-}
-
-.yoga-bg:hover {
-  opacity: 0.9;
-  filter: alpha(opacity=10);
+  height: 200px;
 }
 
 .jumprope-bg {
@@ -732,14 +798,7 @@ section.module.parallax-4 {
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
-  height: 300px;
-  opacity: 1;
-  filter: alpha(opacity=40);
-}
-
-.jumprope-bg:hover {
-  opacity: 0.9;
-  filter: alpha(opacity=10);
+  height: 200px;
 }
 
 .hiking-bg {
@@ -751,14 +810,7 @@ section.module.parallax-4 {
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
-  height: 300px;
-  opacity: 1;
-  filter: alpha(opacity=40);
-}
-
-.hiking-bg:hover {
-  opacity: 0.9;
-  filter: alpha(opacity=10);
+  height: 200px;
 }
 
 .battlerope-bg {
@@ -770,14 +822,7 @@ section.module.parallax-4 {
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
-  height: 300px;
-  opacity: 1;
-  filter: alpha(opacity=40);
-}
-
-.battlerope-bg:hover {
-  opacity: 0.9;
-  filter: alpha(opacity=10);
+  height: 200px;
 }
 
 .kayak-bg {
@@ -789,14 +834,7 @@ section.module.parallax-4 {
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
-  height: 300px;
-  opacity: 1;
-  filter: alpha(opacity=40);
-}
-
-.kayak-bg:hover {
-  opacity: 0.9;
-  filter: alpha(opacity=10);
+  height: 200px;
 }
 
 .surfing-bg {
@@ -808,14 +846,7 @@ section.module.parallax-4 {
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
-  height: 300px;
-  opacity: 1;
-  filter: alpha(opacity=40);
-}
-
-.surfing-bg:hover {
-  opacity: 0.9;
-  filter: alpha(opacity=10);
+  height: 200px;
 }
 
 .rowing-bg {
@@ -827,21 +858,166 @@ section.module.parallax-4 {
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
-  height: 300px;
-  opacity: 1;
-  filter: alpha(opacity=40);
+  height: 200px;
 }
 
-.rowing-bg:hover {
-  opacity: 0.9;
-  filter: alpha(opacity=10);
+@media(min-width:768px) {
+  .workout-text {
+    padding-top: 110px;
+    color: white;
+    font-size: 30px;
+  }
+
+  .swimming-bg {
+    background-image: url('../img/swimming.png');
+    background-repeat: none;
+    background-attachment: scroll;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    height: 300px;
+  }
+
+  .boxing-bg {
+    background-image: url('../img/boxing.png');
+    background-repeat: none;
+    background-attachment: scroll;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    height: 300px;
+  }
+
+  .biking-bg {
+    background-image: url('../img/biking.png');
+    background-repeat: none;
+    background-attachment: scroll;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    height: 300px;
+  }
+
+  .stairs-bg {
+    background-image: url('../img/stairs.png');
+    background-repeat: none;
+    background-attachment: scroll;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    height: 300px;
+  }
+
+  .crossfit-bg {
+    background-image: url('../img/crossfit.png');
+    background-repeat: none;
+    background-attachment: scroll;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    height: 300px;
+  }
+
+ .yoga-bg {
+    background-image: url('../img/yoga.png');
+    background-repeat: none;
+    background-attachment: scroll;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    height: 300px;
+  }
+
+  .jumprope-bg {
+    background-image: url('../img/jumprope.png');
+    background-repeat: none;
+    background-attachment: scroll;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    height: 300px;
+  }
+
+  .hiking-bg {
+    background-image: url('../img/hiking.png');
+    background-repeat: none;
+    background-attachment: scroll;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    height: 300px;
+  }
+
+  .battlerope-bg {
+    background-image: url('../img/battlerope.png');
+    background-repeat: none;
+    background-attachment: scroll;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    height: 300px;
+  }
+
+  .kayak-bg {
+    background-image: url('../img/kayak.png');
+    background-repeat: none;
+    background-attachment: scroll;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    height: 300px;
+  }
+
+  .surfing-bg {
+    background-image: url('../img/surfing.png');
+    background-repeat: none;
+    background-attachment: scroll;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    height: 300px;
+  }
+
+  .rowing-bg {
+    background-image: url('../img/rowing.png');
+    background-repeat: none;
+    background-attachment: scroll;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    height: 300px;
+  }
 }
 
 .learnmore-sentence {
   background: #FFC968;
-  font-size: 30px;
-  padding-top: 40px;
-  padding-bottom: 40px;
+  font-size: 13px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .learnmore-bg {
@@ -852,16 +1028,16 @@ section.module.parallax-4 {
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
-  height: 650px;
+  height: 300px;
 }
 
 .space-learnmore {
-  padding-top: 300px;
+  padding-top: 120px;
 }
 
 .learnmore-text {
   color: white;
-  font-size: 70px;
+  font-size: 35px;
 }
 
 .learnmore-text:link {
@@ -869,8 +1045,46 @@ section.module.parallax-4 {
 }
 
 .learnmore-text:hover {
-  color: pink;
+  color: #99FFFF;
   text-decoration: none;
+}
+
+@media(min-width:768px) {
+  .learnmore-sentence {
+    background: #FFC968;
+    font-size: 25px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  .learnmore-bg {
+    background-image: url('../img/learnmore.png');
+    background-repeat: none;
+    background-attachment: scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    height: 650px;
+  }
+
+  .space-learnmore {
+    padding-top: 300px;
+  }
+
+  .learnmore-text {
+    color: white;
+    font-size: 80px;
+  }
+
+  .learnmore-text:link {
+    text-decoration: none;
+  }
+
+  .learnmore-text:hover {
+    color: #99FFFF;
+    text-decoration: none;
+  }
 }
 
 
