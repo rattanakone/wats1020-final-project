@@ -486,14 +486,6 @@ width: 90%;
   border-radius: 0;
 }
 
-.intro-text {
-	color: white;
-	background: black;
-	font-size: 30px;
-  padding-top: 30px;
-  padding-bottom: 30px;
-}
-
 section.module:last-child {
   margin-bottom: 0;
 }
@@ -548,7 +540,7 @@ section.module.parallax-2 {
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
-  height: 300px;
+  height: 500px;
 }
 
 .space-skateboarding-bg {
@@ -569,5 +561,169 @@ section.module.parallax-2 {
 	height: 300px;
 }
 
+.chore-sentence {
+  color: black;
+  background: white;
+  font-size: 30px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
 
+.workout-examples {
+  color: black;
+  background: white;
+  font-size: 30px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.workout-text {
+  padding-top: 110px;
+  color: white;
+  font-size: 30px;
+}
+
+.swimming-bg {
+  background-image: url('../img/swimming.png');
+  background-repeat: none;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  height: 300px;
+}
+
+.boxing-bg {
+  background-image: url('../img/boxing.png');
+  background-repeat: none;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  height: 300px;
+}
+
+.biking-bg {
+  background-image: url('../img/biking.png');
+  background-repeat: none;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  height: 300px;
+}
+
+.stairs-bg {
+  background-image: url('../img/stairs.png');
+  background-repeat: none;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  height: 300px;
+}
+
+.crossfit-bg {
+  background-image: url('../img/crossfit.png');
+  background-repeat: none;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  height: 300px;
+}
+
+.yoga-bg {
+  background-image: url('../img/yoga.png');
+  background-repeat: none;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  height: 300px;
+}
+
+.jumprope-bg {
+  background-image: url('../img/jumprope.png');
+  background-repeat: none;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  height: 300px;
+}
+
+.hiking-bg {
+  background-image: url('../img/hiking.png');
+  background-repeat: none;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  height: 300px;
+}
+
+.battlerope-bg {
+  background-image: url('../img/battlerope.png');
+  background-repeat: none;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  height: 300px;
+}
+
+.kayak-bg {
+  background-image: url('../img/kayak.png');
+  background-repeat: none;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  height: 300px;
+}
+
+.surfing-bg {
+  background-image: url('../img/surfing.png');
+  background-repeat: none;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  height: 300px;
+}
+
+.rowing-bg {
+  background-image: url('../img/rowing.png');
+  background-repeat: none;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  height: 300px;
+}
 
