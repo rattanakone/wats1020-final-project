@@ -535,6 +535,10 @@ section.module.parallax-3 {
   background-image: url('../img/yogaatlake.png');
 }
 
+section.module.parallax-4 {
+  background-image: url('../img/staymotivated.png');
+}
+
 .skateboarding-bg {
 	background-image: url('../img/skateboarding.png');
   background-repeat: none;
