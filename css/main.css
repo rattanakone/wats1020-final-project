@@ -531,6 +531,10 @@ section.module.parallax-2 {
   background-image: url('../img/running.png');
 }
 
+section.module.parallax-3 {
+  background-image: url('../img/yogaatlake.png');
+}
+
 .skateboarding-bg {
 	background-image: url('../img/skateboarding.png');
   background-repeat: none;
@@ -726,4 +730,34 @@ section.module.parallax-2 {
   -o-background-size: cover;
   height: 300px;
 }
+
+.learnmore-sentence {
+  color: black;
+  background: white;
+  font-size: 30px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.learnmore-bg {
+  background-image: url('../img/learnmore.png');
+  background-repeat: none;
+  background-attachment: scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  height: 650px;
+}
+
+.space-learnmore {
+  padding-top: 300px;
+}
+
+.learnmore-text {
+  color: white;
+  font-size: 60px;
+}
+
+
 
