@@ -431,11 +431,6 @@ width: 90%;
   border: 0;
   background: rgba(153,255,255,0.5);
   padding: 1px;
-  -moz-animation: fadeIn 18s;
-  -ms-animation: fadeIn 18s;
-  -o-animation: fadeIn 18s;
-  -webkit-animation: fadeIn 18s;
-  animation: fadeIn 18s;
 }
 
 #fitbit-nav a {
